@@ -1,0 +1,7 @@
+@color: #224488 / 2; //结果是 #112244
+@some: #112242;
+div {
+    margin: if((2 > 1), 0, 3px);
+    color:  if((iscolor(@some)), @some, black);
+    transform: translate(30px);
+}

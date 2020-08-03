@@ -1,0 +1,8 @@
+{
+  "name": "wzwpack",
+  "version": "1.0.0",
+  "description": "the cli of webpack",
+  "bin": "./bin/wzwpack.js",
+  "author": "wzw",
+  "license": "ISC"
+}
